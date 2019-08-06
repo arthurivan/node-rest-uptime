@@ -1,0 +1,23 @@
+{
+  "name": "rest-uptime",
+  "version": "1.0.0",
+  "description": "a vanilla node app with session tokens that allows users to receive notification via WhatsApp if addresses are down.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurivan/node-rest-uptime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurivan/node-rest-uptime/issues"
+  },
+  "homepage": "https://github.com/arthurivan/node-rest-uptime#readme"
+}
