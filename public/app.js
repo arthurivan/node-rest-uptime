@@ -4,19 +4,18 @@
  */
 
 // Container for frontend application
-var app = {};
+const app = {};
 
 // Config
 app.config = {
-  'sessionToken' : false
+  'sessionToken': false,
 };
 
 // AJAX Client (for RESTful API)
-app.client = {}
+app.client = {};
 
 // Interface for making API calls
-app.client.request = function(headers,path,method,queryStringObject,payload,callback){
-
+app.client.request = function (headers, path, method, queryStringObject, payload, callback) {
   // Set defaults
   headers = typeof(headers) == 'object' && headers !== null ? headers : {};
   path = typeof(path) == 'string' ? path : '/';
