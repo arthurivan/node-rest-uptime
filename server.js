@@ -2,8 +2,8 @@
 Primary file for the API
 */
 
-const server = require('./lib/server');
-const workers = require('./lib/workers');
+const server = require('./lib/server.js');
+const workers = require('./lib/workers.js');
 
 // Declare app
 const app = {};
@@ -13,8 +13,7 @@ app.init = () => {
   server.init();
   // Start the workers
   workers.init();
-
-}
+};
 
 app.init();
 
