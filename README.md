@@ -143,7 +143,11 @@ This project was created for educational purposes to demonstrate:
    ```
    mkdir -p .data/{users,tokens,checks} .logs
    ```
-3. Update Twilio credentials in `lib/config.js` (for notifications)
+3. Configure environment variables:
+   ```
+   cp .env.example .env
+   # Edit .env and add your actual Twilio credentials and secrets
+   ```
 4. Generate SSL certificates for HTTPS (optional):
    ```
    mkdir https

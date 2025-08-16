@@ -39,3 +39,6 @@ Thumbs.db
 # Private keys and credentials #
 ##############################
 *.pem
+.env
+.env.local
+.env.*.local
